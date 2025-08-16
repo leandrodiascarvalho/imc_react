@@ -1,11 +1,12 @@
 {
-  "name": "calculadora_imc",
+  "name": "meu-primeiro-app-react",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://leandrodiascarvalho.github.io/imc_react/tree/main/calculadora_imc",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
