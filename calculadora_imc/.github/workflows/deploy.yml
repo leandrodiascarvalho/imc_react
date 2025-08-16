@@ -1,10 +1,9 @@
-# .github/workflows/deploy.yml
 name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - main # ou o nome do seu branch principal
+      - main # Este é o gatilho: roda sempre que você der push no branch 'main'
 
 permissions:
   contents: read
