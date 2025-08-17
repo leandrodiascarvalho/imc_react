@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main # Este é o gatilho: roda sempre que você der push no branch 'main'
+      - main
 
 permissions:
   contents: read
